@@ -158,7 +158,7 @@
                 <h5>Si crees que el éxito depende del talento, entonces es más probable que te rindas cuando enfrentas desafíos. Sin embargo, si crees que puedes mejorar con la práctica y la dedicación, es más probable que perseveres cuando los tiempos se pongan difíciles.</h5>
                 <p class="lead">
                     <p>¡Únete a nuestra clínica de perfeccionamiento deportivo y descubre tu verdadero potencial! Aquí aprenderás que con esfuerzo y compromiso, no hay límite a lo que puedes lograr. Inspírate, supérate y alcanza nuevas metas junto a otras chicas apasionadas por el deporte. ¡Te esperamos para que seas la mejor versión de ti misma!</p>
-                    <a href="#" class="btn btn-light mt-3"><i class="fa-solid fa-chevron-right"></i> Inscríbete aquí</a>
+                    <a href="#" class="btn btn-light mt-3" data-bs-toggle="modal" data-bs-target="#enroll"><i class="fa-solid fa-chevron-right"></i> Inscríbete aquí</a>
                 </p>
         </div>
     </section>
@@ -266,11 +266,60 @@
             </a>
         </div>
     </footer>
+
+    
+    <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enroll" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header d-flex flex-column">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h1 class="modal-title fs-5 text-center" id="enroll">Clínica deportiva de hockey de alto rendimiento para chicas de 12 a 18 años</h1>
+            <img src="img/charoypiti_hockey_0588.webp" alt="Clinica de goleras" class="img-fluid mt-2">
+          
+          
+        </div>
+        <div class="modal-body">
+          <p class="lead text-center">Completa el formulario para inscribirte y te contactaremos en la brevedad.</p>
+          <form action="" method="POST" netlify>
+            <div class="mb-3">
+                <label class="first-name" class="col-form-label">Nombre</label>
+                <input type="text" class="form-control" id="first-name">
+
+            </div>
+
+            <div class="mb-3">
+                <label class="last-name" class="col-form-label">Apellido</label>
+                <input type="text" class="form-control" id="last-name">
+
+            </div>
+
+            <div class="mb-3">
+                <label class="email" class="col-form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+
+            </div>
+
+            <div class="mb-3">
+                <label class="phone" class="col-form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="phone">
+
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
     
         
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="codigo.js"></script>
 </body>
 </html>
