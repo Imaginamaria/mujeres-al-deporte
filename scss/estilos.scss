@@ -70,8 +70,37 @@ ul{
     }
 
 
+
+
+      
+
+
 }
 
+#testimoniales {
+    .card {
+      border: 1px solid $primary;
+
+  
+      .fa-quote-left {
+        color: $primary; // Primary color for quotes
+        font-size: 2rem;
+        margin-right: 0.5rem;
+      }
+  
+      img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 75%;
+        margin-right: 0.5rem;
+    }
+
+    .fa-star, .fa-star-half-alt{
+        color: #ffbf00;
+
+    }
+    }
+  }
 
 
 .d-item{
