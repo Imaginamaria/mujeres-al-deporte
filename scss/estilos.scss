@@ -2,6 +2,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import 'botones';
 
+
+
+// Configurar Bootstrap para usar jQuery
+$jquery-url: "~jquery/dist/jquery.js";
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: $primary;
     font-weight: 600;
@@ -64,7 +69,9 @@ ul{
         }
     }
 
+
 }
+
 
 
 .d-item{
