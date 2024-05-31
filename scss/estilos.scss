@@ -20,7 +20,7 @@ $jquery-url: "~jquery/dist/jquery.js";
 body::before{
     display: block;
     content: '';
-    height: 100px;
+    height: 200px;
 }
 
 ul{
@@ -69,11 +69,13 @@ ul{
         }
     }
 
+}
 
+#participa{
 
-
-      
-
+    img {
+        width: 50%;
+    }
 
 }
 
@@ -115,7 +117,7 @@ ul{
         font-size: 2rem;
     }
   }
-  
+
 .d-item{
     color: $white-color;
     height: 700px;
